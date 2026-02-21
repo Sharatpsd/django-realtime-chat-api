@@ -127,7 +127,7 @@ ws://127.0.0.1:8000/ws/chat/global/?token=ACCESS_TOKEN
 Example (Browser Console):
 
 ```javascript
-const token = "your_access_token";
+const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzcxNjkzNDg0LCJpYXQiOjE3NzE2OTMxODQsImp0aSI6Ijc4OGZhM2Y4MzUxZjRhZDViMTU1N2Y3MmMxMTBiYjRmIiwidXNlcl9pZCI6IjEifQ.vTvFki40kE-XSLQnfIMSWKQeomYef-J8wLRWAnxZfMk";
 
 const socket = new WebSocket(
   `ws://127.0.0.1:8000/ws/chat/global/?token=${token}`
@@ -172,24 +172,6 @@ Response:
 
 ---
 
-## 📸 Screenshots
-
-### Register
-![Register](images/register.png)
-
-### Login
-![Login](images/login.png)
-
-### WebSocket Connected
-![WebSocket](images/websocket-connected.png)
-
-### Message Broadcast
-![Message](images/message-sent.png)
-
-### Chat History
-![History](images/history-endpoint.png)
-
----
 
 ## 🧠 Architecture Overview
 
@@ -214,5 +196,6 @@ Response:
 
 ## 👨‍💻 Author
 
-Sharat Acharja  
+Sharat Acharja  Mugdho 
+sharatacharjee6@gmail.com
 Backend Developer (Django)
